@@ -1,6 +1,16 @@
+body{
+    background-color: #514555;
+}
+
 .nav {
     background-color: #63666a;
 }
 .nav-link {
     color: white;
+}
+.display-1{
+    letter-spacing: 20px;
+}
+#portrait{
+    height: 400px;
 }
