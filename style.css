@@ -13,4 +13,8 @@ body{
 }
 #portrait{
     height: 400px;
+    margin: auto;
+}
+.photo{
+    width:30%;
 }
