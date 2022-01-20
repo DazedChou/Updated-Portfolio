@@ -1,6 +1,6 @@
 # Updated-Portfolio
 
-This is my portfolio where I have a breif description about me and links to a few of my works that I have done. 
+This is my portfolio where I have a breif description about me and links to a few of my works that I have done. My list of projects will expand as time goes by.
 
 ### Prerequisites
 
