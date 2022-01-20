@@ -27,7 +27,7 @@
         <a class="nav-link" href="https://linkedin.com/in/davidchou99">Linked In</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Contact Me</a>
+        <a class="nav-link" href="#contact">Contact Me</a>
       </li>
 
     </ul>
@@ -68,14 +68,15 @@
           <div class="my-4 text-center">
             <p>Astronomy-Dashboard</p>
             <a href="https://dazedchou.github.io/Astronomy-Dashboard/" class="mx-5 text-white" id="astronomy">
-              <img src="https://cdn-icons-png.flaticon.com/256/5547/5547482.png" width="256px" height="256px"
+              <img onmouseover="bigImg(this)" onmouseout="normalImg(this)"
+                src="https://cdn-icons-png.flaticon.com/256/5547/5547482.png" width="256px" height="256px"
                 class="rounded-circle">
             </a>
           </div>
           <div class="my-4 text-center">
             <p>Weather Dashboard</p>
             <a href="https://dazedchou.github.io/Astronomy-Dashboard/" class="mx-5 " id="weather">
-              <img
+              <img onmouseover="bigImg(this)" onmouseout="normalImg(this)"
                 src="https://is1-ssl.mzstatic.com/image/thumb/Purple123/v4/73/56/cb/7356cbd8-a22b-0314-ac7f-d38fb9e2a24a/source/256x256bb.jpg"
                 width="256px" height="256px" class="rounded-circle">
             </a>
@@ -83,7 +84,7 @@
           <div class="my-4 text-center">
             <p>Day Planner</p>
             <a href="https://dazedchou.github.io/Astronomy-Dashboard/" class="mx-5" id="to-do">
-              <img
+              <img onmouseover="bigImg(this)" onmouseout="normalImg(this)"
                 src="https://is3-ssl.mzstatic.com/image/thumb/Purple128/v4/56/77/eb/5677eb41-8b8f-bb68-657a-e2fb061cd732/source/256x256bb.jpg"
                 width="256px" height="256px" class="rounded-circle">
             </a>
@@ -99,14 +100,25 @@
       <div class="text-center p-3" style="background-color: #AE9FB2">
         <span id="contact">Contact Me</span>
         <br>
-         Davidchou2009@gmail.com | (415) 689-0098
+        Davidchou2009@gmail.com | (415) 689-0098
       </div>
- 
+
     </footer>
   </main>
 
 
 </body>
+<script>
+  function bigImg(x) {
+    x.style.height = "300px";
+    x.style.width = "300px";
+  }
+
+  function normalImg(x) {
+    x.style.height = "256px";
+    x.style.width = "256px";
+  }
+</script>
 
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
   integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
