@@ -1,15 +1,16 @@
 # Updated-Portfolio
 
-One paragraph of project description goes here.
+This is my portfolio where I have a breif description about me and links to a few of my works that I have done. 
 
 ### Prerequisites
 
 There is no prerequisite software needed.
-What things you need to install the software and how to install them.
+
 
 ## Screenshots
 
-
+![](./Screenshot_1.jpg)
+![](./Screenshot_2.jpg)
 
 ## Built With
 
